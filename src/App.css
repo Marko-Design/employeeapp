@@ -1,0 +1,17 @@
+.App {
+  text-align: center;
+}
+
+.employees {
+  display:grid; 
+  grid-template-columns : auto auto auto;
+  justify-content: space-around;
+  gap:50px;
+}
+
+.empBlock {
+  border-radius : 20px;
+  padding:15px;
+  background-color:crimson;
+  color: #fff;
+}
